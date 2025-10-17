@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nlsstools"
+version = "1"
+description = "A Next Level Software Studio project."
+readme = "README.md"
+authors = [
+    { name = "Next Level Software Studio" }
+]
+requires-python = ">=3.13"
+dependencies = []
+keywords = ["Next Level Software Studio"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Other/Proprietary License",
+    "Operating System :: Microsoft :: Windows"
+]
+
+[project.license]
+file = "LICENSE.txt"
+
+[project.urls]
+Homepage = "https://nextlevelsoftwarestudio.github.io/nlsstools/nlsstools.html"
+Repository = "https://github.com/NextLevelSoftwareStudio/Next-Level-Software-Studio-nlsstools"
+Issues = "https://github.com/NextLevelSoftwareStudio/Next-Level-Software-Studio-nlsstools/issues"
